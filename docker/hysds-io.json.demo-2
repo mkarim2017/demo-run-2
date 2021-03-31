@@ -1,0 +1,13 @@
+{
+  "submission_type": "individual",
+  "params": [
+    {
+      "name": "name",
+      "from": "submitter",
+      "type": "text",
+      "default": "mohammed"
+    }
+  ],
+  "component": "tosca",
+  "label": "test"
+}

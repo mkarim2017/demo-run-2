@@ -1,0 +1,18 @@
+{
+  "command": "notebook-pge-wrapper execute /home/ops/demo-run-2/notebook_pges/demo-2.ipynb",
+  "time_limit": 3600,
+  "soft_time_limit": 3600,
+  "disk_usage": "1GB",
+  "required_queues": [
+    "factotum-job_worker-small"
+  ],
+  "imported_worker_files": {
+    "$HOME/.aws": "/home/ops/.aws"
+  },
+  "params": [
+    {
+      "name": "name",
+      "destination": "context"
+    }
+  ]
+}
